@@ -70,4 +70,262 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 .ds{font-size:14px;color:var(--a2);margin-bottom:24px}
 .kp{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:24px}
 .ki{background:var(--ink1);border:1px solid var(--ink3);padding:18px 20px}
-.ki .l
+.ki .l{font-family:var(--fm);font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:var(--a1);margin-bottom:8px}
+.ki .v{font-weight:800;font-size:28px;color:var(--pp);letter-spacing:-.02em}
+.ki .v em{color:var(--c1);font-style:normal}
+.ki .dd{font-family:var(--fm);font-size:10px;margin-top:4px;color:var(--a1)}
+.ki .dd.up{color:var(--ok)}
+.ki .dd.wr{color:var(--wr)}
+.dg{display:grid;grid-template-columns:1fr 380px;gap:16px;margin-bottom:24px}
+.mp{background:var(--ink1);border:1px solid var(--ink3);padding:20px;min-height:480px;position:relative}
+.mp h3{font-weight:600;font-size:16px;color:var(--pp);margin-bottom:4px}
+.hn{font-family:var(--fm);font-size:11px;color:var(--a1);margin-bottom:16px}
+.mc{position:relative;height:400px;background:var(--ink0);border:1px solid var(--ink3);overflow:hidden}
+.pn{background:var(--ink1);border:1px solid var(--ink3);padding:20px}
+.pn h3{font-weight:600;font-size:16px;color:var(--pp);margin-bottom:4px}
+.al{padding:12px 14px;border-left:3px solid var(--ink4);background:var(--ink2);margin-bottom:8px;cursor:pointer;transition:border-color .2s}
+.al:hover{border-left-color:var(--c1)}
+.al.s4{border-left-color:var(--ht)}
+.al.s3{border-left-color:var(--wr)}
+.al.s2{border-left-color:var(--c2)}
+.al .wn{font-family:var(--fm);font-size:10px;color:var(--a1);margin-bottom:4px;letter-spacing:.08em}
+.al .wt{font-size:13px;color:var(--pp);font-weight:500;margin-bottom:3px}
+.al .wo{font-family:var(--fm);font-size:11px;color:var(--a2)}
+.hf{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.el{display:grid;gap:8px}
+.er{background:var(--ink1);border:1px solid var(--ink3);padding:16px 20px;display:grid;grid-template-columns:auto 1fr auto auto auto;gap:20px;align-items:center;cursor:pointer;transition:border-color .2s}
+.er:hover{border-color:var(--c3)}
+.er .sl{width:40px;height:40px;display:flex;align-items:flex-end;justify-content:center}
+.er .ii strong{display:block;color:var(--pp);font-size:14px;font-weight:500;margin-bottom:2px}
+.er .ii span{font-family:var(--fm);font-size:11px;color:var(--a1);letter-spacing:.05em}
+.er .st{font-family:var(--fm);font-size:11px;text-align:right;color:var(--a1)}
+.er .st strong{display:block;color:var(--pp);font-size:14px;font-weight:500;font-family:var(--fs)}
+.er .he{width:56px;height:6px;background:var(--ink3);border-radius:3px;overflow:hidden;position:relative}
+.er .he .bar{position:absolute;left:0;top:0;height:100%;transition:width .5s}
+.er .bd{font-family:var(--fm);font-size:10px;padding:4px 8px;border:1px solid var(--ink4);color:var(--a2);text-transform:uppercase;letter-spacing:.1em}
+.er .bd.ok{border-color:rgba(34,197,94,.3);color:#86efac}
+.er .bd.wr{border-color:rgba(245,158,11,.3);color:#fcd34d}
+.er .bd.cr{border-color:rgba(239,68,68,.3);color:#fca5a5}
+.wf{background:var(--ink1);border:1px solid var(--ink3);padding:20px}
+.wf h4{font-weight:500;font-size:13px;color:var(--pp);margin-bottom:12px;font-family:var(--fm);text-transform:uppercase;letter-spacing:.1em}
+.wf .ch{display:flex;align-items:center;gap:12px;margin-bottom:8px;padding:8px 0;border-bottom:1px solid var(--ink3)}
+.wf .ch:last-child{border-bottom:none}
+.wf .ch .lb{font-family:var(--fm);font-size:10px;color:var(--a1);width:32px;letter-spacing:.08em}
+.wf .ch svg{flex:1;height:36px}
+.dr{position:fixed;inset:0;background:rgba(10,10,11,.85);backdrop-filter:blur(8px);z-index:100;display:flex;justify-content:flex-end}
+.dp{width:min(900px,95%);background:var(--ink1);border-left:1px solid var(--ink3);display:flex;flex-direction:column;overflow:hidden;animation:slideIn .3s ease-out}
+.dh{padding:20px 32px;border-bottom:1px solid var(--ink3);display:flex;justify-content:space-between;align-items:center}
+.dh h2{font-weight:700;font-size:22px;letter-spacing:-.015em;color:var(--pp)}
+.dh .cd{font-family:var(--fm);font-size:11px;color:var(--c2);letter-spacing:.08em;margin-top:4px}
+.dh button{color:var(--a2);font-size:20px;width:32px;height:32px;display:flex;align-items:center;justify-content:center;border:1px solid var(--ink3)}
+.dh button:hover{color:var(--pp);border-color:var(--c2)}
+.db{flex:1;overflow-y:auto;padding:24px 32px;display:grid;grid-template-columns:260px 1fr;gap:24px}
+.dsl{background:var(--ink0);border:1px solid var(--ink3);padding:16px;display:flex;align-items:center;justify-content:center}
+.dr2{display:flex;flex-direction:column;gap:16px}
+.dm{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--ink3);border:1px solid var(--ink3)}
+.dm div{background:var(--ink1);padding:14px}
+.dm .l{font-family:var(--fm);font-size:10px;color:var(--a1);text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
+.dm .v{font-weight:600;font-size:18px;color:var(--pp);letter-spacing:-.01em}
+.dm .v em{font-style:normal;color:var(--c1)}
+.nl{background:var(--ink1);border:1px solid var(--ink3)}
+.nl .r{padding:10px 16px;display:grid;grid-template-columns:auto 1fr auto auto;gap:12px;align-items:center;border-bottom:1px solid var(--ink3);font-family:var(--fm);font-size:11px}
+.nl .r:last-child{border-bottom:none}
+.nl .r .dt2{width:8px;height:8px;border-radius:50%;background:var(--ok)}
+.nl .r .dt2.wr{background:var(--wr)}
+.nl .r .dt2.cr{background:var(--ht);animation:pulse 1s infinite}
+.nl .r .c{color:var(--pp)}
+.nl .r .w{color:var(--a2)}
+.nl .r .v{color:var(--c1)}
+.nl .r .s{color:var(--a1)}
+@media(max-width:960px){.roles{grid-template-columns:1fr}.app{grid-template-columns:1fr;grid-template-areas:"hdr" "main"}.nv{display:none}.dg{grid-template-columns:1fr}.kp{grid-template-columns:repeat(2,1fr)}.db{grid-template-columns:1fr}.dm{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+
+<div class="home" id="home">
+<div class="home-hdr">
+<div class="logo"><strong>MOVE</strong><span>idworld · red sísmica v0.1.0</span></div>
+<div class="hm">Alejandría Steam Labs · 30 nodos activos</div>
+</div>
+<div class="hero">
+<div class="kk">Elegí tu rol para entrar al sistema</div>
+<h1 class="ht1">Cuatro edificios escuchados. <em>Tres lentes</em> para leerlos.</h1>
+<p class="hsub">Protección Civil ve riesgo. El Sismólogo ve señal. El Ingeniero ve estructura. Mismos datos, distintos focos.</p>
+</div>
+<div class="roles">
+<button class="rc" style="--cc:#22d3ee" onclick="enter('pc')">
+<div class="ic"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 2L3 6v5c0 4 3 7 7 7s7-3 7-7V6l-7-4z"/></svg></div>
+<h3>Protección Civil</h3>
+<div class="subt">Operaciones · alertas</div>
+<p>Mapa operativo en tiempo real, alertas de eventos sísmicos, estado de la red, edificios críticos vigilados.</p>
+<ul><li><span>Vista</span><strong>Municipio → edificio → nodo</strong></li><li><span>Prioridad</span><strong>Alertas y latencia</strong></li><li><span>SLA</span><strong>&lt;50 ms onda P</strong></li></ul>
+<span class="en">Entrar como PC →</span>
+</button>
+<button class="rc" style="--cc:#a78bfa" onclick="enter('sm')">
+<div class="ic"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 10h3l2-6 2 12 2-10 2 8 2-4 2 4h3"/></svg></div>
+<h3>Sismólogo MARN</h3>
+<div class="subt">Red sísmica · waveforms</div>
+<p>Streams sísmicos FDSN en vivo, detección de fases P/S, caracterización de eventos, acceso miniSEED y SeedLink.</p>
+<ul><li><span>Vista</span><strong>Zona NTDS → fuente → estación</strong></li><li><span>Prioridad</span><strong>Calidad de señal</strong></li><li><span>Stack</span><strong>ObsPy · SeedLink · StationXML</strong></li></ul>
+<span class="en">Entrar como MARN →</span>
+</button>
+<button class="rc" style="--cc:#fb7185" onclick="enter('ie')">
+<div class="ic"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="2" width="12" height="16"/><line x1="4" y1="7" x2="16" y2="7"/><line x1="4" y1="12" x2="16" y2="12"/></svg></div>
+<h3>Ingeniero Estructural</h3>
+<div class="subt">Salud edificio · modos propios</div>
+<p>Periodo fundamental, amortiguamiento, drift entre pisos, tendencias de fatiga. SHM continuo bajo ISO 16587.</p>
+<ul><li><span>Vista</span><strong>Tipología → ocupación → unidad</strong></li><li><span>Prioridad</span><strong>Tendencias modales</strong></li><li><span>Norma</span><strong>ISO 16587 · NTDS 94</strong></li></ul>
+<span class="en">Entrar como Ing. →</span>
+</button>
+</div>
+</div>
+
+<div class="app hide" id="app">
+<aside class="nv">
+<div class="br"><strong>MOVE</strong><span id="rL">Protección Civil</span></div>
+<div class="sc">Dashboard</div>
+<a class="ac" data-v="ov"><span class="d"></span>Vista general</a>
+<a data-v="ed"><span class="d"></span>Edificios</a>
+<a data-v="al"><span class="d"></span>Alertas</a>
+<a data-v="rd"><span class="d"></span>Red y gateways</a>
+<div class="sc">Datos</div>
+<a data-v="ev"><span class="d"></span>Eventos sísmicos</a>
+<a data-v="ex"><span class="d"></span>Exportar miniSEED</a>
+<div class="bk" onclick="goHome()">← Cambiar rol</div>
+</aside>
+<header class="hd">
+<div class="cr">idworld / <strong id="cR">Protección Civil</strong> / <strong id="cV">Vista general</strong></div>
+<div class="rg">
+<span class="lv">red en vivo</span>
+<span class="pl">Nodos <strong>30</strong>/30</span>
+<span class="pl">Gateways <strong>4</strong>/4</span>
+<span class="pl" id="tm">--:--:--</span>
+</div>
+</header>
+<main class="mn" id="mn"></main>
+</div>
+
+<div class="dr hide" id="dr">
+<div class="dp">
+<div class="dh">
+<div><h2 id="dN">Edificio</h2><div class="cd" id="dC">SV-SS-XXX-001</div></div>
+<button onclick="cD()">×</button>
+</div>
+<div class="db" id="dB"></div>
+</div>
+</div>
+
+<script>
+const EDI=[
+{c:'SV-SS-TPR-001',n:'Torre Presidente',t:'tw',h:100,p:20,y:2018,sy:'Concreto armado',nt:'III · S2',lat:13.6985,lng:-89.2350,
+nd:[{c:'TPR01.00',l:'Cimiento N',z:0},{c:'TPR01.01',l:'Cimiento S',z:0},{c:'TPR01.02',l:'Piso 5 N',z:25},{c:'TPR01.03',l:'Piso 5 S',z:25},{c:'TPR01.04',l:'Piso 12',z:60},{c:'TPR01.05',l:'Piso 18 N',z:90},{c:'TPR01.06',l:'Azotea N',z:100},{c:'TPR01.07',l:'Azotea S',z:100}],
+pr:2.1,am:5.0,he:94},
+{c:'SV-SS-CAT-001',n:'Catedral Metropolitana',t:'tm',h:50,p:3,y:1999,sy:'Concreto + acero',nt:'II · S3',lat:13.6994,lng:-89.1905,
+nd:[{c:'CAT01.00',l:'Cimiento central',z:0},{c:'CAT01.01',l:'Cim. torre N',z:0},{c:'CAT01.02',l:'Cim. torre S',z:0},{c:'CAT01.03',l:'Base cúpula',z:20},{c:'CAT01.04',l:'Cúpula media',z:35},{c:'CAT01.05',l:'Cúpula superior',z:45},{c:'CAT01.06',l:'Torre N top',z:50},{c:'CAT01.07',l:'Torre S top',z:50}],
+pr:0.8,am:4.0,he:87},
+{c:'SV-SS-PAN-001',n:'Palacio Nacional',t:'ht',h:22,p:4,y:1911,sy:'Mampostería',nt:'I · S3',lat:13.6989,lng:-89.1910,
+nd:[{c:'PAN01.00',l:'Cimiento NE',z:0},{c:'PAN01.01',l:'Cimiento NO',z:0},{c:'PAN01.02',l:'Cimiento SE',z:0},{c:'PAN01.03',l:'Cimiento SO',z:0},{c:'PAN01.04',l:'Azotea NE',z:22},{c:'PAN01.05',l:'Azotea NO',z:22},{c:'PAN01.06',l:'Azotea SE',z:22},{c:'PAN01.07',l:'Azotea SO',z:22}],
+pr:0.45,am:3.0,he:72},
+{c:'SV-SS-TNA-001',n:'Teatro Nacional',t:'cp',h:17,p:4,y:1917,sy:'Hennebique',nt:'II · S3',lat:13.6997,lng:-89.1908,
+nd:[{c:'TNA01.00',l:'Cimiento frontal',z:0},{c:'TNA01.01',l:'Cimiento trasero',z:0},{c:'TNA01.02',l:'Entrepiso sala',z:8},{c:'TNA01.03',l:'Palco lateral',z:10},{c:'TNA01.04',l:'Azotea frontal',z:17},{c:'TNA01.05',l:'Azotea trasera',z:17}],
+pr:0.35,am:4.0,he:89}];
+const AL=[{s:3,w:'hace 12 min',wt:'Vibración elevada eje Z',wo:'PAN01.05 · Palacio Nacional'},{s:2,w:'hace 47 min',wt:'Temperatura MCU fuera de rango',wo:'CAT01.03 · Catedral'},{s:4,w:'hace 1 h 8 min',wt:'Posible onda P detectada (descartado MARN)',wo:'TPR01.00 · Torre Presidente'},{s:2,w:'hace 2 h',wt:'Gateway reconectó tras caída breve',wo:'GW-SS-CAT-01'},{s:3,w:'hace 3 h',wt:'Drift inter-piso supera baseline',wo:'PAN01.04→00'}];
+const RL={pc:{l:'Protección Civil'},sm:{l:'Sismólogo MARN'},ie:{l:'Ingeniero Estructural'}};
+let cRole='pc',cView='ov';
+
+function enter(r){cRole=r;document.getElementById('home').classList.add('hide');document.getElementById('app').classList.remove('hide');document.getElementById('rL').textContent=RL[r].l;document.getElementById('cR').textContent=RL[r].l;cView='ov';document.querySelectorAll('.nv a').forEach(a=>a.classList.toggle('ac',a.dataset.v==='ov'));rn();}
+function goHome(){document.getElementById('home').classList.remove('hide');document.getElementById('app').classList.add('hide');}
+document.querySelectorAll('.nv a[data-v]').forEach(a=>{a.onclick=()=>{document.querySelectorAll('.nv a').forEach(x=>x.classList.remove('ac'));a.classList.add('ac');cView=a.dataset.v;document.getElementById('cV').textContent=a.textContent.trim();rn();};});
+
+function sil(e,sz=40,sn=false){
+const h=sz,w=e.t==='tw'?h*0.4:h*1.6;
+const nd=sn?e.nd.map(n=>{const y=h-(n.z/e.h)*(h-8)-4;return `<circle cx="${w/2}" cy="${y}" r="2.5" fill="#22c55e"/>`;}).join(''):'';
+if(e.t==='tw')return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><rect x="${w*0.3}" y="2" width="${w*0.4}" height="${h-2}" fill="none" stroke="#22d3ee" stroke-width="0.8"/><rect x="${w*0.45}" y="0" width="${w*0.1}" height="3" fill="#0891b2"/>${nd}</svg>`;
+if(e.t==='tm')return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><rect x="${w*0.05}" y="${h*0.45}" width="${w*0.12}" height="${h*0.55}" fill="none" stroke="#22d3ee" stroke-width="0.8"/><rect x="${w*0.83}" y="${h*0.45}" width="${w*0.12}" height="${h*0.55}" fill="none" stroke="#22d3ee" stroke-width="0.8"/><rect x="${w*0.27}" y="${h*0.6}" width="${w*0.46}" height="${h*0.4}" fill="none" stroke="#22d3ee" stroke-width="0.8"/><circle cx="${w*0.5}" cy="${h*0.55}" r="${h*0.18}" fill="none" stroke="#22d3ee" stroke-width="0.8"/>${nd}</svg>`;
+if(e.t==='ht')return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><rect x="${w*0.05}" y="${h*0.4}" width="${w*0.9}" height="${h*0.6}" fill="none" stroke="#22d3ee" stroke-width="0.8"/><polygon points="${w*0.42},${h*0.4} ${w*0.58},${h*0.4} ${w*0.5},${h*0.28}" fill="#0891b2"/>${nd}</svg>`;
+return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><rect x="${w*0.1}" y="${h*0.4}" width="${w*0.8}" height="${h*0.6}" fill="none" stroke="#22d3ee" stroke-width="0.8"/><line x1="${w*0.2}" y1="${h*0.55}" x2="${w*0.2}" y2="${h*0.95}" stroke="#22d3ee" stroke-width="0.5"/><line x1="${w*0.4}" y1="${h*0.55}" x2="${w*0.4}" y2="${h*0.95}" stroke="#22d3ee" stroke-width="0.5"/><line x1="${w*0.6}" y1="${h*0.55}" x2="${w*0.6}" y2="${h*0.95}" stroke="#22d3ee" stroke-width="0.5"/><line x1="${w*0.8}" y1="${h*0.55}" x2="${w*0.8}" y2="${h*0.95}" stroke="#22d3ee" stroke-width="0.5"/>${nd}</svg>`;
+}
+
+function rn(){const m=document.getElementById('mn');if(cView==='ov')return rOv(m);if(cView==='ed')return rEd(m);if(cView==='al')return rAl(m);if(cView==='rd')return rRd(m);if(cView==='ev')return rEv(m);if(cView==='ex')return rEx(m);}
+
+function rOv(m){
+let k;
+if(cRole==='pc')k=[{l:'Edificios vigilados',v:'4',d:'4/4 operativos',c:'up'},{l:'Nodos activos',v:'<em>30</em>/30',d:'latencia media 38 ms',c:'up'},{l:'Alertas 24h',v:'12',d:'↑ 2 vs ayer',c:'wr'},{l:'Eventos M≥3 (7d)',v:'0',d:'última: hace 18 d',c:''}];
+else if(cRole==='sm')k=[{l:'Estaciones FDSN',v:'4',d:'red XX registrada',c:''},{l:'Canales en vivo',v:'<em>30</em>',d:'HHZ/HHN/HHE × 10 stn',c:'up'},{l:'Último evento',v:'M 2.1',d:'hace 18 días · Jucuapa',c:''},{l:'Sync GPS',v:'<em>±2</em> ms',d:'todos los nodos',c:'up'}];
+else k=[{l:'Salud promedio',v:'<em>85</em>%',d:'3 edificios nominal',c:'up'},{l:'Periodo fundamental',v:'0.95 s',d:'promedio ponderado',c:''},{l:'Drift máximo',v:'0.42%',d:'bajo umbral 0.8%',c:'up'},{l:'Próxima inspección',v:'14 d',d:'Palacio Nacional',c:'wr'}];
+m.innerHTML=`<h1 class="dt">Vista general · ${RL[cRole].l}</h1><p class="ds">Red idworld en fase bootstrap. 30 nodos distribuidos en 4 edificios prototipo del centro histórico y zona Rosa.</p>
+<div class="kp">${k.map(x=>`<div class="ki"><div class="l">${x.l}</div><div class="v">${x.v}</div><div class="dd ${x.c}">${x.d}</div></div>`).join('')}</div>
+<div class="dg"><div class="mp"><h3>Mapa operativo — San Salvador</h3><div class="hn">Click en un edificio para ver nodos y waveforms</div><div class="mc" id="mc"></div></div>
+<div class="pn"><h3>Alertas activas</h3><div class="hn">Ordenadas por severidad</div>${AL.map(a=>`<div class="al s${a.s}"><div class="wn">${a.w} · sev ${a.s}</div><div class="wt">${a.wt}</div><div class="wo">${a.wo}</div></div>`).join('')}</div></div>
+<div class="hf"><div class="wf"><h4>${cRole==='sm'?'Waveform HHZ en vivo — PAN01.00':'Actividad sísmica · Palacio Nacional'}</h4>
+<div class="ch"><span class="lb">HHZ</span><svg id="wz"></svg></div>
+<div class="ch"><span class="lb">HHN</span><svg id="wn"></svg></div>
+<div class="ch"><span class="lb">HHE</span><svg id="we"></svg></div></div>
+<div class="pn"><h3>Edificios</h3><div class="hn">Salud estructural</div><div class="el">${EDI.map(e=>`<div class="er" onclick='oD("${e.c}")'><div class="sl">${sil(e,36)}</div><div class="ii"><strong>${e.n}</strong><span>${e.c} · ${e.y}</span></div><div class="st"><strong>${e.h}m</strong>${e.p} niv</div><div class="he"><div class="bar" style="width:${e.he}%;background:${e.he>85?'var(--ok)':e.he>75?'var(--wr)':'var(--ht)'}"></div></div><div class="bd ${e.he>85?'ok':e.he>75?'wr':'cr'}">${e.he}%</div></div>`).join('')}</div></div></div>`;
+dM();sW();
+}
+
+function rEd(m){m.innerHTML=`<h1 class="dt">Edificios</h1><p class="ds">Los 4 prototipos del piloto. Click en cualquiera para ver su detalle completo.</p>
+<div class="el">${EDI.map(e=>`<div class="er" onclick='oD("${e.c}")'><div class="sl">${sil(e,48)}</div><div class="ii"><strong>${e.n}</strong><span>${e.c} · ${e.sy} · NTDS ${e.nt}</span></div><div class="st"><strong>${e.h}m</strong>${e.p} niveles</div><div class="st"><strong>${e.nd.length}</strong>nodos · ${e.y}</div><div class="he"><div class="bar" style="width:${e.he}%;background:${e.he>85?'var(--ok)':e.he>75?'var(--wr)':'var(--ht)'}"></div></div><div class="bd ${e.he>85?'ok':e.he>75?'wr':'cr'}">${e.he}%</div></div>`).join('')}</div>`;}
+
+function rAl(m){m.innerHTML=`<h1 class="dt">Alertas</h1><p class="ds">Eventos activos y resueltos de las últimas 24 horas.</p>
+<div class="pn">${AL.concat(AL).map(a=>`<div class="al s${a.s}"><div class="wn">${a.w} · sev ${a.s}</div><div class="wt">${a.wt}</div><div class="wo">${a.wo}</div></div>`).join('')}</div>`;}
+
+function rRd(m){m.innerHTML=`<h1 class="dt">Red y gateways</h1><p class="ds">4 Raspberry Pi 4 en malla Meshtastic 915 MHz. Latencia y RSSI en vivo.</p>
+<div class="kp"><div class="ki"><div class="l">Gateways online</div><div class="v"><em>4</em>/4</div><div class="dd up">uptime medio 99.2%</div></div>
+<div class="ki"><div class="l">Latencia LoRa</div><div class="v">147 ms</div><div class="dd">SF11 BW 250</div></div>
+<div class="ki"><div class="l">Hops promedio</div><div class="v">1.4</div><div class="dd">malla redundante</div></div>
+<div class="ki"><div class="l">Pérdida pkts</div><div class="v">0.8%</div><div class="dd up">dentro spec</div></div></div>
+<div class="pn"><h3>Gateways RPi 4</h3><div class="hn">Meshtastic preset LONG_FAST · región US 915</div>
+<div class="el" style="margin-top:16px">${['GW-SS-TPR-01|Torre Presidente|860000001|router_client|-62|92','GW-SS-PAN-01|Palacio Nacional|860000002|router|-58|98','GW-SS-CAT-01|Catedral|860000003|router|-60|97','GW-SS-TNA-01|Teatro Nacional|860000004|router_client|-63|95'].map(s=>{const[c,n,i,r,rs,u]=s.split('|');return `<div class="er"><div class="sl" style="color:#22d3ee">▣</div><div class="ii"><strong>${n}</strong><span>${c} · mesh id ${i} · ${r}</span></div><div class="st"><strong>${rs} dBm</strong>RSSI promedio</div><div class="st"><strong>${u}%</strong>uptime 7d</div><div class="bd ok">online</div></div>`;}).join('')}</div></div>`;}
+
+function rEv(m){m.innerHTML=`<h1 class="dt">Eventos sísmicos</h1><p class="ds">Eventos detectados por la red idworld. Cross-referenciados con MARN cuando aplica.</p>
+<div class="pn"><div class="el">
+<div class="er"><div class="sl" style="color:var(--c1);font-family:var(--fm)">P</div><div class="ii"><strong>Jucuapa · M 2.1 superficial</strong><span>2026-04-02 14:32:18 UTC · profundidad 8 km · 82 km E</span></div><div class="st"><strong>4/4</strong>edificios registraron</div><div class="st"><strong>PGA 0.008g</strong>max en TPR</div><div class="bd ok">confirmado MARN</div></div>
+<div class="er"><div class="sl" style="color:var(--wr);font-family:var(--fm)">?</div><div class="ii"><strong>Falso positivo — vibración local</strong><span>2026-03-28 11:07:45 · sólo TPR01.07 lo vio</span></div><div class="st"><strong>1/4</strong>edificios</div><div class="st"><strong>descartado</strong></div><div class="bd wr">rechazado</div></div>
+<div class="er"><div class="sl" style="color:var(--c1);font-family:var(--fm)">P</div><div class="ii"><strong>San Vicente · M 3.4</strong><span>2026-03-15 22:14:03 UTC · profundidad 12 km · 35 km ENE</span></div><div class="st"><strong>4/4</strong></div><div class="st"><strong>PGA 0.024g</strong></div><div class="bd ok">confirmado MARN</div></div>
+</div></div>`;}
+
+function rEx(m){m.innerHTML=`<h1 class="dt">Exportar miniSEED</h1><p class="ds">Descarga FDSN-compliant. Formato NET.STA.LOC.CHA.D.YYYY.JJJ.HH.mseed</p>
+<div class="pn"><div class="hn" style="margin-bottom:20px">Últimas 24 horas · 30 nodos × 3 canales × 24 h = 2,160 archivos miniSEED</div>
+<div style="font-family:var(--fm);font-size:12px;color:var(--a2);line-height:2">
+<div>XX/TPR01/2026/110/XX.TPR01.00.HHZ.D.2026.110.00.mseed · 4.2 MB</div>
+<div>XX/TPR01/2026/110/XX.TPR01.00.HHN.D.2026.110.00.mseed · 4.2 MB</div>
+<div>XX/TPR01/2026/110/XX.TPR01.00.HHE.D.2026.110.00.mseed · 4.2 MB</div>
+<div style="color:var(--a1)">… 2,157 más</div>
+<div style="margin-top:16px">stationxml/XX.TPR01.xml · 18 KB</div>
+<div>stationxml/XX.CAT01.xml · 18 KB</div>
+<div>stationxml/XX.PAN01.xml · 18 KB</div>
+<div>stationxml/XX.TNA01.xml · 14 KB</div></div>
+<div style="margin-top:24px"><button style="padding:14px 24px;background:var(--c2);color:var(--ink0);font-family:var(--fm);font-size:12px;text-transform:uppercase;letter-spacing:.1em;font-weight:700;border:none">Generar bundle SeedLink</button></div></div>`;}
+
+function dM(){const c=document.getElementById('mc');if(!c)return;
+const lM=13.690,lX=13.705,gM=-89.24,gX=-89.185;
+const pr=(la,ln)=>({x:((ln-gM)/(gX-gM))*100,y:((lX-la)/(lX-lM))*100});
+const pins=EDI.map(e=>{const p=pr(e.lat,e.lng);const sv=e.he>85?'#22c55e':e.he>75?'#f59e0b':'#ef4444';return `<g style="cursor:pointer" onclick='oD("${e.c}")'><circle cx="${p.x}%" cy="${p.y}%" r="18" fill="${sv}" opacity="0.15"><animate attributeName="r" values="14;22;14" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.25;0;0.25" dur="3s" repeatCount="indefinite"/></circle><circle cx="${p.x}%" cy="${p.y}%" r="6" fill="${sv}" stroke="#0a0a0b" stroke-width="2"/><text x="${p.x}%" y="${p.y}%" dy="-14" text-anchor="middle" fill="#f4f4f5" font-family="JetBrains Mono" font-size="10" font-weight="700">${e.c.slice(-7,-4)}</text><text x="${p.x}%" y="${p.y}%" dy="24" text-anchor="middle" fill="#a1a1aa" font-family="Archivo" font-size="10">${e.n}</text></g>`;}).join('');
+const mesh=[[EDI[1],EDI[2]],[EDI[1],EDI[3]],[EDI[2],EDI[3]],[EDI[0],EDI[1]],[EDI[0],EDI[2]]].map(([a,b])=>{const pa=pr(a.lat,a.lng),pb=pr(b.lat,b.lng);return `<line x1="${pa.x}%" y1="${pa.y}%" x2="${pb.x}%" y2="${pb.y}%" stroke="#0891b2" stroke-width="1" opacity="0.4" stroke-dasharray="4 4"/>`;}).join('');
+c.innerHTML=`<svg viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%"><defs><pattern id="mg" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M 5 0 L 0 0 0 5" fill="none" stroke="#27272a" stroke-width="0.2"/></pattern></defs><rect width="100" height="100" fill="url(#mg)"/><text x="4" y="96" fill="#52525b" font-family="JetBrains Mono" font-size="2.5">centro histórico SS · zona Rosa</text><text x="96" y="96" text-anchor="end" fill="#52525b" font-family="JetBrains Mono" font-size="2.5">13.69°N · -89.21°W</text></svg><svg style="position:absolute;inset:0;width:100%;height:100%">${mesh}${pins}</svg>`;}
+
+const WB={z:[],n:[],e:[]};
+function aS(){const sp=Math.random()<0.012?(Math.random()-0.5)*60:0;['z','n','e'].forEach(ch=>{const ns=(Math.random()-0.5)*4;WB[ch].push(ns+(ch==='z'?sp:sp*0.6));if(WB[ch].length>120)WB[ch].shift();});}
+function dW(id,bf,co){const s=document.getElementById(id);if(!s)return;const w=s.clientWidth||300,h=36;const pt=bf.map((v,i)=>`${i===0?'M':'L'}${(i/120*w).toFixed(1)},${(h/2-v*0.7).toFixed(1)}`).join(' ');s.innerHTML=`<line x1="0" y1="${h/2}" x2="${w}" y2="${h/2}" stroke="#27272a" stroke-width="0.5"/><path d="${pt}" fill="none" stroke="${co}" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>`;}
+let wT=null;
+function sW(){if(wT)return;for(let i=0;i<120;i++)aS();wT=setInterval(()=>{aS();dW('wz',WB.z,'#22d3ee');dW('wn',WB.n,'#a78bfa');dW('we',WB.e,'#fb7185');dW('dwz',WB.z,'#22d3ee');dW('dwn',WB.n,'#a78bfa');dW('dwe',WB.e,'#fb7185');},80);}
+
+function oD(cd){const e=EDI.find(x=>x.c===cd);if(!e)return;
+document.getElementById('dN').textContent=e.n;document.getElementById('dC').textContent=e.c;
+document.getElementById('dB').innerHTML=`<div class="dsl">${sil(e,260,true)}</div><div class="dr2">
+<div class="dm"><div><div class="l">Altura</div><div class="v"><em>${e.h}</em> m</div></div><div><div class="l">Pisos</div><div class="v">${e.p}</div></div><div><div class="l">Año</div><div class="v">${e.y}</div></div><div><div class="l">Sistema</div><div class="v" style="font-size:13px">${e.sy}</div></div><div><div class="l">NTDS</div><div class="v" style="font-size:13px">${e.nt}</div></div><div><div class="l">Periodo T₁</div><div class="v"><em>${e.pr}</em> s</div></div></div>
+<div class="wf" style="padding:16px"><h4>Waveform · nodo ${e.nd[0].c}</h4>
+<div class="ch"><span class="lb">HHZ</span><svg id="dwz"></svg></div>
+<div class="ch"><span class="lb">HHN</span><svg id="dwn"></svg></div>
+<div class="ch"><span class="lb">HHE</span><svg id="dwe"></svg></div></div>
+<div class="nl">${e.nd.map((n,i)=>{const st=e.he<75&&i===4?'cr':e.he<85&&i===3?'wr':'';const rs=-(55+Math.floor(Math.random()*25));const bt=(3.7+Math.random()*0.5).toFixed(2);return `<div class="r"><span class="dt2 ${st}"></span><span><span class="c">${n.c}</span> <span class="w">· ${n.l}</span></span><span class="s">${rs} dBm</span><span class="v">${bt} V</span></div>`;}).join('')}</div></div>`;
+document.getElementById('dr').classList.remove('hide');}
+function cD(){document.getElementById('dr').classList.add('hide');}
+document.getElementById('dr').addEventListener('click',e=>{if(e.target.id==='dr')cD();});
+
+setInterval(()=>{const d=new Date();const el=document.getElementById('tm');if(el)el.textContent=d.toTimeString().slice(0,8);},1000);
+</script>
+</body>
+</html>
